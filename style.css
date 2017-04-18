@@ -81,6 +81,18 @@ form {
   flex-direction: column;
 }
 
+@media (max-width: 600px) {
+  form {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+}
+h1, h2 {
+  text-align: center;
+  width: 80vw;
+}
+}
+
 input {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
